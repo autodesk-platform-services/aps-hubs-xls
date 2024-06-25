@@ -2,11 +2,17 @@ import { initViewer, loadModel } from './viewer.js';
 import { initTree } from './sidebar.js';
 
 const login = document.getElementById('login');
+const login_icon = document.getElementById('login_icon');
+login_icon.onclick = (e) => {
+    login.click();
+    login_icon.style.display = "none";
+}
 try {
     const resp = await fetch('/api/auth/profile');
     if (resp.ok) {
         const user = await resp.json();
         login.innerText = `Logout (${user.name})`;
+        login_icon.style.display = "none";
         login.onclick = () => {
             const iframe = document.createElement('iframe');
             iframe.style.visibility = 'hidden';

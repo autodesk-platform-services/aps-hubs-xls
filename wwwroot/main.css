@@ -52,6 +52,14 @@ body, html {
     margin: 0.5em;
 }
 
+#login_icon{
+    margin-left: 30%;
+    margin-top: 11%;
+    padding: 2%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
 @media (max-width: 768px) {
     #sidebar {
         width: 100%;
