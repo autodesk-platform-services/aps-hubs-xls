@@ -5,7 +5,7 @@
 [![npm](https://img.shields.io/badge/npm-8.11-blue.svg)](https://www.npmjs.com/)
 [![license](https://img.shields.io/:license-mit-green.svg)](https://opensource.org/licenses/MIT)
 
-This sample application demonstrates how to extract metadata of model on your Autodesk360, BIM360 or Autodesk Construction Cloud(ACC) account, into an excel spreadsheet. The sample code demonstates 3-legged OAuth, a simple viewer extension and code to handle meta-data and format it into an excel spreadsheet file.
+This sample application demonstrates how to extract metadata of model on your Autodesk360, BIM360  acount or Autodesk Forma hub, into an excel spreadsheet. The sample code demonstates 3-legged OAuth, a simple viewer extension and code to handle meta-data and format it into an excel spreadsheet file.
 
 ![thumbnail](thumbnail.png)
 
@@ -15,7 +15,7 @@ This sample application demonstrates how to extract metadata of model on your Au
 
 - [APS credentials](https://aps.autodesk.com/en/docs/oauth/v2/tutorials/create-app)
 - Provisioned access to [BIM 360 Docs](https://aps.autodesk.com/en/docs/bim360/v1/tutorials/getting-started/manage-access-to-docs/)
-or Autodesk Construction Cloud
+or Autodesk Forma
 - [Node.js](https://nodejs.org) (Long Term Support version is recommended)
 - Command-line terminal such as [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview)
 or [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) (should already be available on your system)
